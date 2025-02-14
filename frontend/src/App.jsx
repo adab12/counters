@@ -1,17 +1,14 @@
 import React from "react";
-import { useState } from "react";
-import "./App.css";
+import Counter from "./components/counter";
+import Navbar from "./components/navbar/Navbar";
 
-const Counter = () => {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
-    <div className="count">
-      <button onClick={() => setCount(count + 1)}> increase</button>
-      <h2>Count {count}</h2>
-      <button onClick={() => setCount(count - 1)}>decrease</button>
+    <div>
+      <Navbar />
+      <Counter />
     </div>
   );
 };
 
-export default Counter;
+export default App;

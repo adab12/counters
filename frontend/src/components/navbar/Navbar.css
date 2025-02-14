@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: azure;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  width: max-content;
+}
+
+.nav-logo {
+  color: black;
+  margin: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
